@@ -1,0 +1,16 @@
+usando postgres:
+usuario postgres
+host localhost
+database fungi
+tablas de fungi:
+especies(nombre varchar (50),descripcion varchar (200));
+
+manual para probar:
+  sudo su - postgres
+  psql -U postgres
+  create database fungi
+  \c fungi
+  create table especies(nombre varchar (50),descripcion varchar (200));
+
+deuda técnica:
+  automatizar los seeds de data base
